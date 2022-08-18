@@ -1,8 +1,9 @@
 import "./App.css";
-import Gps from "./shared/widgets/Gps";
+import Product from "./modules/products/pages/Product";
+// import Gps from "./shared/widgets/Gps";
 
 function App() {
-  return <Gps />;
+  return <Product />;
 }
 
 export default App;
