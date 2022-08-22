@@ -1,7 +1,8 @@
 import axios from "axios";
 const API_CLIENT = {
   get(URL) {
-    axios.get(URL, { timeout: 7000 });
+    const promise = axios.get(URL, { timeout: 7000 });
+    return promise;
   },
   post(URL, data) {},
   put() {},
