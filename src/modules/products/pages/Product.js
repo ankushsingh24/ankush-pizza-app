@@ -44,7 +44,7 @@ const Product = () => {
           <div>
             {products.map((product) => (
               <>
-                <img src={product.assets.product.details_page[0].url} alt="" />
+                <img src={product.assets.product_details_page[0].url} alt="" />
                 <p>
                   {product.name} {product.price}
                 </p>
