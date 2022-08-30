@@ -4,8 +4,18 @@ const API_CLIENT = {
     const promise = axios.get(URL, { timeout: 7000 });
     return promise;
   },
-  post(URL, data) {},
+
+  post(URL, data) {
+    const promise = axios.post(URL, JSON.stringify(data), {
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    return promise;
+  },
+
   put() {},
+
   delete() {},
 };
 
