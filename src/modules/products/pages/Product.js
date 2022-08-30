@@ -39,7 +39,7 @@ const Product = () => {
   return (
     <>
       <Container maxWidth="sm">
-        <Box sx={{ bgcolor: "#cfe8fc", height: "100vh" }}>
+        <Box sx={{ bgcolor: "white", height: "100vh" }}>
           <MenuTab category={category} />
           <div>
             {products.map((product) => (
